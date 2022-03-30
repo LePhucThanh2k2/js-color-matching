@@ -89,7 +89,7 @@ function handleTimerChange(seconds) {
 }
 function handleTimerFinish() {
   gameStatus = GAME_STATUS.FINISHED
-  setTimerText('Game Over!')
+  setTimerText('Cố Lên Bé Ơi ^^')
   showPlayAgainButton()
 }
 function attachEventForColorList() {
