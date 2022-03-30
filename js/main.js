@@ -60,7 +60,7 @@ function handleColorClick(liElement) {
     const isWin = pickLiElementHaveActive().length === 0
     if (isWin) {
       showPlayAgainButton()
-      setTimerText('Ngân Đẹp Gái Ok Chưa ^^')
+      setTimerText('You WIN !')
       timer.clear()
       gameStatus = GAME_STATUS.FINISHED
     }
@@ -89,7 +89,7 @@ function handleTimerChange(seconds) {
 }
 function handleTimerFinish() {
   gameStatus = GAME_STATUS.FINISHED
-  setTimerText('Cố Lên Bé Ơi ^^')
+  setTimerText('Game Over !')
   showPlayAgainButton()
 }
 function attachEventForColorList() {
